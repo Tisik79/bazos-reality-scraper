@@ -1,9 +1,9 @@
 name: Scrape Bazos Reality
 
 on:
-  schedule:
-    - cron: '0 */2 * * *'  # Každé 2 hodiny
-  workflow_dispatch:        # Možnost manuálního spuštění
+  # schedule:
+  #   - cron: '0 */2 * * *'  # Zakomentováno - workflow se nebude automaticky spouštět
+  workflow_dispatch:        # Ponecháno pro možnost manuálního spuštění
 
 jobs:
   scrape:
